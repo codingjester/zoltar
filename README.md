@@ -1,24 +1,14 @@
 # Zoltar
 
-TODO: Write a gem description
+Zoltar was my quick "relieve my boredom" on a train while going
+home to see my parents. It just reads in a list of the BSD "%" separated
+quotes that I found when I installed fortune and turns it into an
+API.
 
-## Installation
+I'm probably going to add more to this and possibly try to turn it into
+some kind of api to get a markov chain of the fortunes. 
 
-Add this line to your application's Gemfile:
-
-    gem 'zoltar'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install zoltar
-
-## Usage
-
-TODO: Write usage instructions here
+Regardless, it's silly and kinda fun.
 
 ## Contributing
 
