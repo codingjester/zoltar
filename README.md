@@ -10,6 +10,11 @@ some kind of api to get a markov chain of the fortunes.
 
 Regardless, it's silly and kinda fun.
 
+## Running Zoltar
+It's pretty easy. Just run `rackup config.ru` or `ruby zoltar.rb`
+
+I've only tested it with ruby 2.0, so buyer beware.
+
 ## Contributing
 
 1. Fork it
