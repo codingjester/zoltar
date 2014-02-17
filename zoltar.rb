@@ -21,7 +21,8 @@ end
 get "/" do
   # Gets a random fortune by selecting random key
   # then selecting random fortune
-  {"fortune" => $categories[$categories.keys.sample].sample.strip.gsub(/"/,"'") }.to_json
+  key = $categories.keys.sample
+  {"fortune" => $categories[key].sample.strip.gsub(/"/,"'"), "category" => key }.to_json
 end
 
 get "/categories" do
@@ -34,7 +35,7 @@ get "/fortune/:category" do
   if not $categories.include?(params[:category])
     halt(400, "doesn't exist")
   end
-  {"fortune" => $categories[params[:category]].sample.strip.gsub(/"/, "'")}.to_json
+  {"fortune" => $categories[params[:category]].sample.strip.gsub(/"/, "'"), "category" => params[:category]}.to_json
 end
 
 get "/about" do
