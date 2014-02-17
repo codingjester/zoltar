@@ -8,7 +8,9 @@ API.
 I'm probably going to add more to this and possibly try to turn it into
 some kind of api to get a markov chain of the fortunes. 
 
-Regardless, it's silly and kinda fun.
+Regardless, it's silly and kinda fun. Please feel free to add any
+categories or quotes/phrases that you want. I'll probably pull
+in the majority of them and deploy them to my site.
 
 ## Running Zoltar
 It's pretty easy. Just run `rackup config.ru` or `ruby zoltar.rb`
